@@ -80,4 +80,19 @@ body {
   display: flex;
 }
 
+.element-graphic {
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+  box-shadow: 0 0 1px #0000001f, 0 1px 1px #0000003d;
+}
+
+.icon {
+  max-width: 46px;
+  height: auto;
+  display: inline-block;
+  -webkit-mask-size: cover;
+  mask-size: cover;
+}
+
 /*# sourceMappingURL=index.4d663569.css.map */
