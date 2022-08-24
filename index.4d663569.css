@@ -88,11 +88,10 @@ body {
 }
 
 .icon {
-  max-width: 46px;
+  max-width: 150px;
+  max-height: 160px;
   height: auto;
   display: inline-block;
-  -webkit-mask-size: cover;
-  mask-size: cover;
 }
 
 /*# sourceMappingURL=index.4d663569.css.map */
