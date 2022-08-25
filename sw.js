@@ -1,0 +1,2 @@
+(()=>{let a=[],e="";a=["index.html","favicon.e4fdada9.jpg","index.b7d02d81.js","index.8b153444.css"],e="bb0d4714",addEventListener("install",(t=>t.waitUntil(async function(){const t=await caches.open(e);await t.addAll(a)}()))),addEventListener("activate",(a=>a.waitUntil(async function(){const a=await caches.keys();await Promise.all(a.map((a=>a!==e&&caches.delete(a))))}())))})();
+//# sourceMappingURL=sw.js.map
