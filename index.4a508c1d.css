@@ -12178,6 +12178,8 @@ body {
 }
 
 .element-graphic {
+  width: 150px;
+  height: 150px;
   justify-content: center;
   align-items: center;
   display: inline-flex;
@@ -12185,10 +12187,10 @@ body {
 }
 
 .icon {
-  width: 150px;
-  min-height: 120px;
-  max-height: 160px;
+  width: auto;
   height: auto;
+  max-width: 150px;
+  max-height: 150px;
   display: inline-block;
 }
 
