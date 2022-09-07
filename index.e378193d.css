@@ -12259,4 +12259,14 @@ body {
   color: #fff;
 }
 
+#canvas {
+  max-height: 100%;
+  margin: auto;
+  padding: 0;
+  display: block;
+  position: absolute;
+  inset: 0;
+  max-width: 100% !important;
+}
+
 /*# sourceMappingURL=index.e378193d.css.map */
